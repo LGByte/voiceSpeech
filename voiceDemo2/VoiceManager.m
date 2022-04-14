@@ -20,6 +20,7 @@
 
 @implementation VoiceManager
 
+
 +(VoiceManager *)shareInstance
 {
     static VoiceManager *voiceManager = nil;
