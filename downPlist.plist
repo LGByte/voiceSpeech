@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://com.sdjgroup.sdjwallet:8080</string>
+                    <string>https://github.com/LGByte/voiceSpeech/blob/main/cashier.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
