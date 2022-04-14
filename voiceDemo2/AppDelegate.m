@@ -21,7 +21,7 @@
 #define APPKEY @"22ce86dfa31ff8f286085298"
 
 @interface AppDelegate ()<JPUSHRegisterDelegate>
-
+ 
 @end
 
 @implementation AppDelegate
