@@ -15,6 +15,7 @@
 @property(nonatomic,strong)AVSpeechSynthesisVoice *voice;
 @property(nonatomic,copy)NSString *languageType; // 播报语音类型
 
+
 @end
 
 @implementation VoiceManager
