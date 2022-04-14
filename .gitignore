@@ -1,3 +1,9 @@
+
+
+*.xcuserstate
+project.xcworkspace
 xcuserdata
-xcshareddata/
-*/xcuserdata/*
+UserInterfaceState.xcuserstate
+project.xcworkspace/
+xcuserdata/
+UserInterface.xcuserstate 
