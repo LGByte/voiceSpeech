@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CashierPushExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>voiceDemo2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8C8728112803DCF5003A67DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F66436727DB4D6500753A27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F66438227DB4D6C00753A27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F66438C27DB4D6D00753A27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

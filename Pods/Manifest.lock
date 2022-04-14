@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - JCore (2.1.4-noidfa)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - JCore (= 2.1.4-noidfa)
+  - JPush (= 3.2.6)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - JCore
+    - JPush
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  JCore: 2f15311e6889ab43ed5d629802ef793cac566465
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+
+PODFILE CHECKSUM: c794da3c377d3e690310216abddca32df9cbfeeb
+
+COCOAPODS: 1.11.2
