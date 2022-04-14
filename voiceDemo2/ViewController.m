@@ -128,7 +128,7 @@
     {
         BOOL filesPresent = [self copyMissingFile:docPath toPath:[NSString stringWithFormat:@"%@/Library/Sounds",appDir]];
         if (filesPresent) {
-            NSLog(@"Copy Success");
+            NSLog(@"Copy  Success");
         }
         else
         {
