@@ -61,6 +61,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
   /// Required - 注册 DeviceToken
   [JPUSHService  registerDeviceToken:deviceToken];
+    NSLog(@"Main");
 }
 
 
