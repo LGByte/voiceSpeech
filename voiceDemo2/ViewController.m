@@ -118,7 +118,8 @@
     
    
    
-    NSLog(@"11111r4 111");
+    
+    NSLog(@"11111r455 111");
    
     NSString *filePath = [[NSString stringWithFormat:@"%@/Library/Sounds",appDir] stringByAppendingPathComponent:@"user_payment.mp3"];
     if([fileManager fileExistsAtPath:filePath]){ //存在 删除
