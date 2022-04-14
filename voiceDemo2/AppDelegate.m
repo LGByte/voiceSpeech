@@ -22,6 +22,10 @@
 
 @interface AppDelegate ()<JPUSHRegisterDelegate>
  
+
+
+
+
 @end
 
 @implementation AppDelegate
