@@ -66,12 +66,13 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
 -(void)jpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler{
     
-    
+     
     NSLog(@"进入 didReceiveNotificationResponse %@",response.notification.request.content.userInfo);
 }
 -(void)jpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger))completionHandler{
     NSDictionary * dict =  notification.request.content.userInfo ;
 //    [self readNote:dict];
+    
     NSLog(@"进入 willPresentNotification %@",notification.request.content.userInfo);
     completionHandler(UNNotificationPresentationOptionAlert | UNNotificationPresentationOptionBadge |UNNotificationPresentationOptionSound );//
 }
