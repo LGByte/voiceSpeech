@@ -118,7 +118,7 @@
     
    
    
-   
+    
     NSString *filePath = [[NSString stringWithFormat:@"%@/Library/Sounds",appDir] stringByAppendingPathComponent:@"user_payment.mp3"];
     if([fileManager fileExistsAtPath:filePath]){ //存在 删除
        BOOL isDelete = [fileManager removeItemAtPath:filePath error:nil];
