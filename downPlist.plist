@@ -39,9 +39,9 @@
                 <key>kind</key>
                 <string>software</string>
                 <key>subtitle</key>
-                <string>副标题（非必填）</string>
+                <string>s-d-j-cash</string>
                 <key>title</key>
-                <string>钱包</string>
+                <string>s-d-j-cash</string>
             </dict>
         </dict>
     </array>
