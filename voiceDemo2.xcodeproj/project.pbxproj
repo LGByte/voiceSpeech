@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		40997BDE6A0120DBA444F11E /* Pods_voiceDemo2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F5F463396DBAB7498B99E /* Pods_voiceDemo2Tests.framework */; };
+		8C5CD4BC28094D1600AA5567 /* LocationPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5CD4BB28094D1600AA5567 /* LocationPushService.m */; };
+		8C5CD4C028094D1600AA5567 /* LocationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C5CD4B828094D1600AA5567 /* LocationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C8728162803DCF5003A67DE /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8728152803DCF5003A67DE /* NotificationService.m */; };
 		8C87281A2803DCF5003A67DE /* CashierPushExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C8728122803DCF5003A67DE /* CashierPushExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C8728402803DD1D003A67DE /* user_payment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C8728272803DD1D003A67DE /* user_payment.mp3 */; };
@@ -75,6 +77,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8C5CD4BE28094D1600AA5567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F66436027DB4D6500753A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5CD4B728094D1600AA5567;
+			remoteInfo = LocationExtension;
+		};
 		8C8728182803DCF5003A67DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F66436027DB4D6500753A27 /* Project object */;
@@ -106,6 +115,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				8C87281A2803DCF5003A67DE /* CashierPushExtension.appex in Embed App Extensions */,
+				8C5CD4C028094D1600AA5567 /* LocationExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +129,10 @@
 		5AF69F97030863810CE86BB0 /* Pods-voiceDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voiceDemo2.release.xcconfig"; path = "Target Support Files/Pods-voiceDemo2/Pods-voiceDemo2.release.xcconfig"; sourceTree = "<group>"; };
 		803F5F463396DBAB7498B99E /* Pods_voiceDemo2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voiceDemo2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819C6A859241868BC2AC3CD4 /* Pods-voiceDemo2-voiceDemo2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voiceDemo2-voiceDemo2UITests.release.xcconfig"; path = "Target Support Files/Pods-voiceDemo2-voiceDemo2UITests/Pods-voiceDemo2-voiceDemo2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C5CD4B828094D1600AA5567 /* LocationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LocationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5CD4BA28094D1600AA5567 /* LocationPushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationPushService.h; sourceTree = "<group>"; };
+		8C5CD4BB28094D1600AA5567 /* LocationPushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationPushService.m; sourceTree = "<group>"; };
+		8C5CD4BD28094D1600AA5567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8728122803DCF5003A67DE /* CashierPushExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CashierPushExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8728142803DCF5003A67DE /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		8C8728152803DCF5003A67DE /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
@@ -177,6 +191,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C5CD4B528094D1600AA5567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C87280F2803DCF5003A67DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +255,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8C5CD4B928094D1600AA5567 /* LocationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8C5CD4BA28094D1600AA5567 /* LocationPushService.h */,
+				8C5CD4BB28094D1600AA5567 /* LocationPushService.m */,
+				8C5CD4BD28094D1600AA5567 /* Info.plist */,
+			);
+			path = LocationExtension;
+			sourceTree = "<group>";
+		};
 		8C8728132803DCF5003A67DE /* CashierPushExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +316,7 @@
 				9F66438627DB4D6C00753A27 /* voiceDemo2Tests */,
 				9F66439027DB4D6D00753A27 /* voiceDemo2UITests */,
 				8C8728132803DCF5003A67DE /* CashierPushExtension */,
+				8C5CD4B928094D1600AA5567 /* LocationExtension */,
 				9F66436927DB4D6500753A27 /* Products */,
 				8BDA0BE98C838B590E38F0BD /* Pods */,
 				19D344994BA58E322A64EB17 /* Frameworks */,
@@ -298,6 +330,7 @@
 				9F66438327DB4D6C00753A27 /* voiceDemo2Tests.xctest */,
 				9F66438D27DB4D6D00753A27 /* voiceDemo2UITests.xctest */,
 				8C8728122803DCF5003A67DE /* CashierPushExtension.appex */,
+				8C5CD4B828094D1600AA5567 /* LocationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,6 +378,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C5CD4B728094D1600AA5567 /* LocationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5CD4C328094D1600AA5567 /* Build configuration list for PBXNativeTarget "LocationExtension" */;
+			buildPhases = (
+				8C5CD4B428094D1600AA5567 /* Sources */,
+				8C5CD4B528094D1600AA5567 /* Frameworks */,
+				8C5CD4B628094D1600AA5567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationExtension;
+			productName = LocationExtension;
+			productReference = 8C5CD4B828094D1600AA5567 /* LocationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8C8728112803DCF5003A67DE /* CashierPushExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C87281E2803DCF5003A67DE /* Build configuration list for PBXNativeTarget "CashierPushExtension" */;
@@ -377,6 +427,7 @@
 			);
 			dependencies = (
 				8C8728192803DCF5003A67DE /* PBXTargetDependency */,
+				8C5CD4BF28094D1600AA5567 /* PBXTargetDependency */,
 			);
 			name = voiceDemo2;
 			productName = voiceDemo2;
@@ -431,6 +482,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					8C5CD4B728094D1600AA5567 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					8C8728112803DCF5003A67DE = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -464,11 +518,19 @@
 				9F66438227DB4D6C00753A27 /* voiceDemo2Tests */,
 				9F66438C27DB4D6D00753A27 /* voiceDemo2UITests */,
 				8C8728112803DCF5003A67DE /* CashierPushExtension */,
+				8C5CD4B728094D1600AA5567 /* LocationExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C5CD4B628094D1600AA5567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C8728102803DCF5003A67DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -648,6 +710,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C5CD4B428094D1600AA5567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5CD4BC28094D1600AA5567 /* LocationPushService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C87280E2803DCF5003A67DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,6 +765,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8C5CD4BF28094D1600AA5567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5CD4B728094D1600AA5567 /* LocationExtension */;
+			targetProxy = 8C5CD4BE28094D1600AA5567 /* PBXContainerItemProxy */;
+		};
 		8C8728192803DCF5003A67DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8C8728112803DCF5003A67DE /* CashierPushExtension */;
@@ -732,6 +807,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8C5CD4C128094D1600AA5567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA29E2KBKL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdj.cashier.sdjCashier.LocationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5CD4C228094D1600AA5567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA29E2KBKL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdj.cashier.sdjCashier.LocationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8C87281C2803DCF5003A67DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1031,6 +1156,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C5CD4C328094D1600AA5567 /* Build configuration list for PBXNativeTarget "LocationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5CD4C128094D1600AA5567 /* Debug */,
+				8C5CD4C228094D1600AA5567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C87281E2803DCF5003A67DE /* Build configuration list for PBXNativeTarget "CashierPushExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
